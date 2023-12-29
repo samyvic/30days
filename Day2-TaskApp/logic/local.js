@@ -6,7 +6,7 @@ export function saveData(){
 }
 
 export function showTasks(){
-    console.log(listContainer.innerHTML = localStorage.getItem("data")); 
+    //console.log(listContainer.innerHTML = localStorage.getItem("data")); 
     return listContainer.innerHTML = localStorage.getItem("data");
 }
 
